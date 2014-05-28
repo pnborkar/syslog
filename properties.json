@@ -1,0 +1,21 @@
+/* 
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+{
+    "token": "00wyPT8meQjsiqkzhDuHAPcDcbm9rlSLKsVJI1ux7s", /* API token */
+    "org": "oktademo.okta.com", /* the org this will be used to build the URL */
+    "syslog": "fmvdclsrcl100.cps.intel.com", /* Syslog listener */
+    "host_name": "vmsoktap01.acint.intel.com", /* Local Hostname running this connector */
+    "syslog_port": "514",
+    "syslog_instance": "udp",
+    "proxy": "",/* Proxy host */
+    "proxy_port": "912",
+    "min_from_current_to_log": "6", /* NOT-USED Number of minutes from current to log */
+    "cef_header": "OKTA:",
+    "state_file": "log_state.json", /* Start and End of last run */
+    "debug": "true", /* if true Spits out all the logs sent to syslog */
+    "limit_logs": "1000" /* Limit the # of logs sent to syslog */
+
+}
